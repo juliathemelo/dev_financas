@@ -1,0 +1,133 @@
+/* ============== GLOBAL ============ */
+:root{
+    --color-dark: rgb(134, 33, 33);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;  
+}
+
+.container{
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: rgb(107, 79, 36);
+    font-weight: normal;
+}
+
+/* ============== HEADER ============ */
+
+header{
+    background: var(--color-dark);
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+#logo{
+    color: white;
+    font-weight: 100;
+}
+
+/* ============== MAIN - BALANCE/CARD ============ */
+
+#balance{
+    margin-top: -7rem;
+}
+
+#balance h2{
+    color: white;
+    margin-top: 0;
+}
+
+.card{
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    color: var(--color-dark);
+}
+
+.card h3{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.card p{
+    font-size: 1.9rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+.card.total{
+    background: #d37049;
+    color: white;
+}
+
+/* ============== TABLE ============ */
+
+#data-table{
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: rgb(218, 105, 105);
+}
+
+table th{
+    background: white;
+    font-weight: normal;
+ 
+    padding: 1rem 2rem;
+    text-align: left;
+   
+   
+}
+
+table td{
+    background: white;
+    padding: 1rem 2rem;  
+}
+
+table tbody tr{
+    opacity: 0.8;
+}
+
+table tbody tr:hover{
+    opacity: 1;
+}
+
+table thead tr th:first-child, table tbody tr th:first-child{
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+td.description{
+    color: var(--color-dark);
+}
+
+td.income{
+    color: rgb(42, 206, 42);
+}
+
+td.expense{
+    color: red;
+}
+
+/* ============== FOOTER ============ */
+
+footer{
+    text-align: center;
+    padding: 4rem 0 2rem;
+    color: var(--color-dark);
+    opacity: 0.7;
+    
+}
+
